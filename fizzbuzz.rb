@@ -1,2 +1,4 @@
 def fizzbuzz
+
 end
+
