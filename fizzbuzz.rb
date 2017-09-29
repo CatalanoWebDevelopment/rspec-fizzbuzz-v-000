@@ -1,11 +1,10 @@
 def fizzbuzz(int)
-  if int % 3 == 0 #if the integar is divisible by three with no remainder
+  if int % 3 == 0 
     print "Fizz"
-  elsif int % 5 == 0 #if integar is divisible by five with no remainder
+  elsif int % 5 == 0 
     print "Buzz"
-  elsif int % 3 == 0 && int % 5 == 0 #if integar is divisible by 3 and 5 with no remainder
+  elsif int % 3 == 0 && int % 5 == 0 
     print "Fizzbuzz"
   else
     print "Nil"
 end
-
